@@ -1,0 +1,34 @@
+ .RegisterBox {
+  text-align: left;
+  position: relative;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+} 
+
+.RegisterBox form {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.RegisterBox h2 {
+  color: white;
+  margin: 20px 0;
+}
+
+.RegisterBox form p {
+  color: white;
+  text-align: right;
+  font-size: 1.2em;
+  margin-bottom: 15px 0;
+  cursor: pointer;
+}
+
+.LoadingText {
+  font-style: italic;
+  margin-right: 4px;
+}

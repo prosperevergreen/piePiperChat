@@ -1,0 +1,58 @@
+.Navbar {
+  width: 100%;
+  z-index: 3;
+  font-weight: 600;
+  font-size: 20px;
+  /* box-shadow: 0 2px 3px #ccc; */
+  display: flex;
+  align-items: center;
+}
+
+.Navbar ul {
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  margin: 0;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FloatedRight {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  text-align: center;
+  display: block;
+  /* border-right: 1px solid rgba(0, 0, 0, 0.2); */
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 0 50px;
+  display: block;
+  transition: 0.5s;
+}
+
+.NavItem {
+  position: relative;
+  width: 100%;
+  display: block;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.FloatedRight li:nth-last-child(1) .NavItem{
+  border: none;
+  background-color: #1ECD97;
+}
+
+ .Brand {
+  font-size: 1.2em;
+  font-weight: 700;
+}

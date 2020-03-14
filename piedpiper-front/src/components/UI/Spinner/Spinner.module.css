@@ -1,0 +1,20 @@
+.Spinner {
+  text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    border: 8px solid transparent !important;
+    border-radius: 50% !important;
+    border-top-color: #1ECD97 !important;
+    border-bottom-color: #1ECD97 !important;
+    border-left-color: #1ECD97 !important;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }

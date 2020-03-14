@@ -1,0 +1,56 @@
+.ChatScreenBar {
+    position: sticky;
+    -webkit-position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+    border-left: 1px solid #e0e0e0;
+    width: 100%;
+    height: 60px;
+    background-color: #ededed;
+    z-index: 10;
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    font-size: 1.7em;
+    overflow: hidden;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+.ChatScreenBar .FloatedRight {
+    display: flex;
+    flex-flow: row;
+    font-size: 0.9em;
+    text-transform: capitalize;
+}
+
+.RoomDetails {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.RoomName {
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.RoomMembers {
+    font-size: 1em;
+    color: #4e4e4e;
+    font-size: 0.55em;
+}
+
+img {
+    height: 45px;
+    width: 45px;
+}
+.FA {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.FA span {
+    margin-right: 20px !important;
+    cursor: pointer;
+}

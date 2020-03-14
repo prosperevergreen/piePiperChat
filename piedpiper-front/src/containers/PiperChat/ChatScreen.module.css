@@ -1,0 +1,82 @@
+.ChatScreen {
+    display: flex;
+    flex-flow: row;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+.ContactsPane {
+    height: 100vh;
+    background-color: white;
+    width: 35%;
+    border-right: 1px solid rgba(0,0,0,.08);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.MenuBar  {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1.7em;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+}
+
+.MenuBar i {
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 0 !important;
+}
+.MenuImageContainer {
+    height: 40px;
+    cursor: pointer;
+}
+.MenuImageContainer img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; 
+    cursor: pointer;
+}
+
+.BackgroundImage {
+    background-image: url('../../assets/images/bg-chat-tile_9e8a2898faedb7db9bf5638405cf81ae.png');
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .06;
+}
+.Chat {
+    height: 100vh;
+    background-color: #E5DDD5;
+    width: 65%;
+    overflow-y: scroll;
+}
+
+.Msgs {
+    margin-bottom: 50px;
+    width: auto;
+    overflow-y: scroll;
+    padding: 20px;
+    position: relative;
+}
+.Chat form {
+    padding: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.Chat form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    bottom: 0;
+    left: 0;
+    outline: none;
+}
